@@ -1,0 +1,69 @@
+- type: tile
+  id: FloorSteelDEV
+  name: tiles-steel-floor-DEV
+  sprite: /Textures/_DS14/Tiles/dev.png
+  baseTurf: PlatingP
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelDEV
+  heatCapacity: 10000
+  tileRipResistance: 4500
+
+- type: tile
+  id: TiledFloor
+  name: tiled-floor
+  sprite: /Textures/_DS14/Tiles/steel.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: PlatingP
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: TileFloorOne
+  heatCapacity: 10000
+  tileRipResistance: 4500
+
+- type: tile
+  id: TileFloor
+  name: tile-floor
+  sprite: /Textures/_DS14/Tiles/steel_mono.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: PlatingP
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: TileFloorTwo
+  heatCapacity: 10000
+  tileRipResistance: 4500
+
+- type: tile
+  id: CheckeredFloor
+  name: checkered-floor
+  sprite: /Textures/_DS14/Tiles/checker_dark.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: PlatingP
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: CheckeredFloor
+  heatCapacity: 10000
+  tileRipResistance: 4500

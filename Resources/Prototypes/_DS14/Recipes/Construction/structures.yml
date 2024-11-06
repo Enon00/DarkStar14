@@ -1,0 +1,17 @@
+- type: construction
+  name: sheetwall
+  id: SheetWall
+  graph: Girder
+  startNode: start
+  targetNode: wall
+  category: construction-category-structures
+  description: A cheap, thin wall.
+  icon:
+    sprite: /Textures/_DS14/Structures/Walls/sheetsolid.rsi
+    state: full
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
